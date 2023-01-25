@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/icons8-downloads-100.png"
+      type="image/x-icon"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <title>Form Validation</title>
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- form -->
+      <form id="form" action="/">
+        <h1>🎶Welcome!🎶</h1>
+
+        <!--username  -->
+        <div class="input-control">
+          <label for="username">Username</label>
+          <i class="fa-solid fa-user form-icon"></i>
+          <input id="username" name="username" type="text" />
+          <i class="fa-solid fa-circle-check op-icon"></i>
+          <i class="fa-solid fa-circle-exclamation op-icon"></i>
+          <div class="error"></div>
+        </div>
+
+        <!-- email -->
+        <div class="input-control">
+          <label for="email">Email</label>
+          <i class="fa-solid fa-envelope form-icon"></i>
+          <input id="email" name="email" type="email" />
+          <i class="fa-solid fa-circle-check op-icon"></i>
+          <i class="fa-solid fa-circle-exclamation op-icon"></i>
+          <div class="error"></div>
+        </div>
+
+        <!-- password -->
+        <div class="input-control">
+          <label for="password">Password</label>
+          <i class="fa-solid fa-lock form-icon"></i>
+          <input id="password" name="password" type="password" />
+          <i class="fa-solid fa-circle-check op-icon"></i>
+          <i class="fa-solid fa-circle-exclamation op-icon"></i>
+          <div class="error"></div>
+        </div>
+
+        <!-- confirm password -->
+        <div class="input-control">
+          <label for="password2">Confirm Password</label>
+          <i class="fa-solid fa-lock form-icon"></i>
+          <input id="password2" name="password2" type="password" />
+          <i class="fa-solid fa-circle-check op-icon"></i>
+          <i class="fa-solid fa-circle-exclamation op-icon"></i>
+          <div class="error"></div>
+        </div>
+
+        <!-- button -->
+        <div class="btn-container"><button type="submit">Sign Up</button></div>
+      </form>
+    </div>
+
+    <!-- social icons -->
+    <div class="social-icon">
+      <a href="https://www.instagram.com/mathav._.07/"
+        ><i class="fa-brands fa-instagram icons"></i
+      ></a>
+      <a href="https://www.linkedin.com/"
+        ><i class="fa-brands fa-linkedin icons"></i
+      ></a>
+      <a href="https://github.com/SETHUMATHAVAN77"
+        ><i class="fa-brands fa-github icons"></i
+      ></a>
+    </div>
+    <!-- social icons -->
+
+    <!-- custom script -->
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
